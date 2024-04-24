@@ -71,11 +71,11 @@
       }
     },
     "com.unity.addressables": {
-      "version": "1.21.19",
+      "version": "1.21.20",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.scriptablebuildpipeline": "1.21.21",
+        "com.unity.scriptablebuildpipeline": "1.21.22",
         "com.unity.modules.assetbundle": "1.0.0",
         "com.unity.modules.imageconversion": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0",
@@ -203,6 +203,19 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.purchasing": {
+      "version": "4.11.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.androidjni": "1.0.0",
+        "com.unity.services.core": "1.8.2"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.remote-config": {
       "version": "4.0.0",
       "depth": 0,
@@ -228,14 +241,14 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.scriptablebuildpipeline": {
-      "version": "1.21.21",
+      "version": "1.21.22",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.services.analytics": {
-      "version": "5.0.0",
+      "version": "5.1.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -246,24 +259,24 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.services.authentication": {
-      "version": "3.1.0",
-      "depth": 1,
+      "version": "3.3.1",
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "3.2.1",
-        "com.unity.services.core": "1.12.0",
+        "com.unity.services.core": "1.12.5",
         "com.unity.modules.unitywebrequest": "1.0.0",
         "com.unity.ugui": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.services.cloudcode": {
-      "version": "2.5.0",
+      "version": "2.5.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.services.authentication": "2.2.0",
-        "com.unity.services.core": "1.11.0",
+        "com.unity.services.authentication": "3.1.0",
+        "com.unity.services.core": "1.12.0",
         "com.unity.modules.unitywebrequest": "1.0.0",
         "com.unity.nuget.newtonsoft-json": "3.0.2",
         "com.unity.services.wire": "1.1.5"
@@ -271,17 +284,17 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.services.cloudsave": {
-      "version": "2.2.1",
+      "version": "3.1.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.services.authentication": "2.2.0",
-        "com.unity.services.core": "1.4.0"
+        "com.unity.services.authentication": "2.6.1",
+        "com.unity.services.core": "1.4.3"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.services.core": {
-      "version": "1.12.4",
+      "version": "1.12.5",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -318,8 +331,18 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.services.leaderboards": {
+      "version": "2.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.services.authentication": "3.1.0",
+        "com.unity.services.core": "1.12.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.services.lobby": {
-      "version": "1.1.0",
+      "version": "1.1.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -405,7 +428,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.textmeshpro": {
-      "version": "3.0.6",
+      "version": "3.0.8",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -454,6 +477,16 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
+    },
+    "com.unity.visualscripting": {
+      "version": "1.9.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
